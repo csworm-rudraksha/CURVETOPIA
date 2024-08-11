@@ -1,5 +1,4 @@
-# Curvetopia - SVG Curve Completion and Transformation
-
+# Curvetopia - Advanced SVG Curve Processing
 Welcome to **Curvetopia**, an advanced tool designed to process SVG files by completing incomplete shapes, identifying curve types, and transforming them into refined, accurate vector graphics. This project is part of Adobe's GenSolve initiative, which aims to provide robust solutions for vector graphic editing and enhancement.
 
 ## Table of Contents
