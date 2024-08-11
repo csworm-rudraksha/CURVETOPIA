@@ -30,8 +30,8 @@ To install and run Curvetopia, follow these steps:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/curvetopia.git
-cd curvetopia
+git clone https://github.com/csworm-rudraksha/CURVETOPIA.git
+cd CURVETOPIA
 ```
 ### Install Dependencies
 Make sure you have Python installed. Then, install the necessary packages:
@@ -55,7 +55,7 @@ python main.py -i input/yourfile.svg
 - **Output**: A fully completed and transformed SVG file, with precise curve adjustments.
 ### Project Structure
 ```bash
-curvetopia/
+CURVETOPIA/
 │
 ├── input/                # Directory for input SVG files
 ├── output/               # Directory for output SVG files
