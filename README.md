@@ -55,20 +55,38 @@ python main.py -i input/yourfile.svg
 - **Output**: A fully completed and transformed SVG file, with precise curve adjustments.
 ### Project Structure
 ```bash
-CURVETOPIA/
+PROJECT/
+├── data/examples/
+│  └── isolated.csv
 │
-├── input/                # Directory for input SVG files
-├── output/               # Directory for output SVG files
-├── src/                  # Source code
-│   ├── curve_detection.py  # Module for curve identification
-│   ├── shape_completion.py # Module for shape completion
-│   ├── svg_to_csv.py       # Module for converting SVG to CSV
-│   ├── transformations.py  # Module for curve transformations
-│   └── main.py             # Main script to run the application
+├── src/
+│  ├── pycache/
+│  │   ├── completion.cpython-310.pyc
+│  │   ├── convert.cpython-310.pyc
+│  │   ├── regularization.cpython-310.pyc
+│  │   ├── symmetry.cpython-310.pyc
+│  │   ├── utils.cpython-310.pyc
+│  │   ├── utils.cpython-312.pyc
+│  │   └── visualize.cpython-310.pyc
+│  │
+│  ├── _init_.py
+│  ├── completion.py
+│  ├── convert.py
+│  ├── main.py
+│  ├── regularization.py
+│  ├── symmetry.py
+│  ├── utils.py
+│  └── visualize.py
 │
-├── README.md              # Project documentation
-├── requirements.txt       # Python dependencies
-└── LICENSE                # License file
+├── poetry.lock
+├── pyproject.toml
+├── replit_zip_error_log.txt
+└── requirments.txt
 ```
 ### Acknowledgments
 This project is developed as part of the Adobe GenSolve Curvetopia initiative, aiming to provide cutting-edge solutions for shape processing.
+### TEAM
+Team Uzee - 
+- Rudraksha Kushwaha
+- Mahak sharma 
+- Pratham Parashar
